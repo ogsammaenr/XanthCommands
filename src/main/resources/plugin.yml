@@ -1,0 +1,75 @@
+name: XanthCommands
+version: '1.0.0'
+main: xanth.ogsammaenr.xanthCommands.XanthCommands
+api-version: '1.21'
+commands:
+  xanthcommands:
+    description: Xanth Komutları
+    usage: /xanthcommands <alt-komut>
+    permission: xanthcommands.use
+
+  craft:
+    description: Opens a crafting table.
+    permission: xanthcommands.craft
+  anvil:
+    description: Opens a anvil.
+    permission: xanthcommands.anvil
+  enchant:
+    description: Opens a enchanting table.
+    permission: xanthcommands.enchant
+  fly:
+    description: Toggles flight.
+    permission: xanthcommands.fly
+  repairhand:
+    description: elinizdeki eşyayı tamir eder
+    permission: xanthcommands.repairhand
+  repairall:
+    description: envanterindeki bütün eşyaları tamir eder
+    permission: xanthcommands.repairall
+
+
+permissions:
+  xanthcommands.craft:
+    description: /craft komutunu kullanma yetkisi
+    default: false
+  xanthcommands.anvil:
+    description: /anvil komutunu kullanma yetkisi
+    default: false
+  xanthcommands.enchant:
+    description: /enchant komutunu kullanma yetkisi
+    default: false
+  xanthcommands.fly:
+    description: /fly komutunu kullanma yetkisi
+    default: op
+  xanthcommands.use:
+    description: admin komutlarını kullanma yetkisi
+    default: op
+  xanthcommands.repairhand:
+    description: /repairhand komudunu kullanma yetkisi
+    default: false
+  xanthcommands.repairall:
+    description: /rapairall komudunu kullanma yetkisi
+    default: false
+
+  xanthcommands.cooldown.repairhand1:
+    description: süre 1
+    default: false
+  xanthcommands.cooldown.repairhand2:
+    description: süre 2
+    default: false
+  xanthcommands.cooldown.repairhand3:
+    description: süre 3
+    default: false
+  xanthcommands.cooldown.repairhand4:
+    description: süre 4
+    default: false
+
+  xanthcommands.cooldown.repairall1:
+    description: süre 1
+    default: false
+  xanthcommands.cooldown.repairall2:
+    description: süre 2
+    default: false
+  xanthcommands.cooldown.repairall3:
+    description: süre 3
+    default: false

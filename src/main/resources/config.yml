@@ -1,0 +1,25 @@
+cooldowns:
+  repairhand:
+    level1:
+      permission: "xanthcommands.cooldown.repairhand1"
+      duration: 60
+    level2:
+      permission: "xanthcommands.cooldown.repairhand2"
+      duration: 180
+    level3:
+      permission: "xanthcommands.cooldown.repairhand3"
+      duration: 360
+    level4:
+      permission: "xanthcommands.cooldown.repairhand4"
+      duration: 720
+
+  repairall:
+    level1:
+      permission: "xanthcommands.cooldown.repairall1"
+      duration: 60
+    level2:
+      permission: "xanthcommands.cooldown.repairall2"
+      duration: 180
+    level3:
+      permission: "xanthcommands.cooldown.repairall3"
+      duration: 360
